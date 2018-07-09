@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<style>
+/* Center the loader */
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #111111;
+  border-radius: 50%;
+  border-top: 16px solid #FF851B;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+#myDiv {
+  display: none;
+  text-align: center;
+}
+</style>
+</head>
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+<div style="display:none;" id="myDiv" class="animate-bottom">
+  <h2>Welcome</h2>
+  <p>This is the official site for Team Bezrk. Enjoy...</p>
+</div>
+
+<script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+}
+</script>
+
+    <title>Team Bezrk</title>
+    <meta charset="utf-8"/>
+     <link href='https://fonts.googleapis.com/css?family=Lato:400,300,100,700,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header>
+      <h1 class="page-title">TEAM BEZRK</h1>
+      <p class="page-description">Team Bezrk is a UK-based CS:GO team. The ranks of the players range from LEM to Supreme Master First Class. Team Bezrk plays both matchmaking and Faceit and sometimes gets involved in Faceit tournaments. </p>
+    </header>
+<h2>The Players:</h2>
+    <div class="gallery">
+      <figure class="gallery-item">
+        <a href="http://steamcommunity.com/id/TOZZZER/" target=_blank> <img class="img-circle" src="bezrk.jpg">
+        </figure></a>
+    
+          <figure class="gallery-item"><a href="https://steamcommunity.com/id/Brumafriendd" target=_blank> <img class="img-circle" src="bezrk.jpg">
+        </figure></a>
+    
+       <figure class="gallery-item"><a href="https://steamcommunity.com/id/72hrs" target=_blank> <img class="img-circle" src="bezrk.jpg">
+        </figure></a>
+    
+       <figure class="gallery-item"><a href="https://steamcommunity.com/profiles/76561198199059009" target=_blank> <img class="img-circle" src="bezrk.jpg">
+        </figure></a>
+        
+        <figure class="gallery-item"><a href="https://steamcommunity.com/profiles/76561198166868563"  target=_blank><img class="img-circle" src="bezrk.jpg"></figure></a>
+    </div>
+    <div class="gallery">
+      <figure class="gallery-item"><div class="chip">
+  <img src="bezrk.jpg" alt="Person" width="96" height="96">
+  tozzzer
+</div>
+        </figure></a>
+    
+          <figure class="gallery-item"><div class="chip">
+  <img src="bezrk.jpg" alt="Person" width="96" height="96">
+  Brumafriend
+</div>
+        </figure></a>
+    
+       <figure class="gallery-item"><div class="chip">
+  <img src="bezrk.jpg" alt="Person" width="96" height="96">
+  Dom
+</div>
+        </figure></a>
+    
+       <figure class="gallery-item"><div class="chip">
+  <img src="bezrk.jpg" alt="Person" width="96" height="96">
+  GBFred
+</div>
+        </figure></a>
+        
+        <figure class="gallery-item"><div class="chip">
+  <img src="bezrk.jpg" alt="Person" width="96" height="96">
+  IceCream
+</div></figure></a>
+    </div>
+  
+  
+
+     
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    </br>
+    <h2>Our Social Media:</h2>
+   <div class="gallery">
+      <figure class="gallery-item">
+        <a href="https://twitter.com/BezrkEsports" target=_blank> <img class="thumbnail" src="twitter.png">
+        </figure></a>
+    
+          <figure class="gallery-item"><a href="https://www.youtube.com/user/Piersgamer" target=_blank> <img class="thumbnail" src="youtube.png">
+        </figure></a>
+    
+    
+       <figure class="gallery-item"><a href="http://steamcommunity.com/groups/BezrkUK" target=_blank> <img class="thumbnail" src="steamlogo.png">
+        </figure></a>
+    </div>
+   <h2>Some of Our Clips:</h2>
+   <table width="100%">
+<tr>
+<td align="left" valign="top" width="50%">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jH2K_HP0aDw?ecver=1" frameborder="0" allowfullscreen></iframe>
+</td>
+<td align="left" valign="top" width="50%">
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/cObPG5BbyIQ?ecver=1" frameborder="0" allowfullscreen></iframe>
+ </td>
+ <td align="left" valign="top" width="50%">
+ <iframe width="560" height="315" src="https://www.youtube.com/embed/ICGrku3RgRk?ecver=1" frameborder="0" allowfullscreen></iframe>
+</td
+</tr>
+</table>
+      <nav>
+      <div class="contact-btn">
+        <a href="mailto:teambezrk@gmail.com">Contact Us</a>
+      </div>
+    </nav>
+  </body>
+</html>
